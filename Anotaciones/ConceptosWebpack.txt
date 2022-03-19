@@ -142,9 +142,13 @@ http://google-webfonts-helper.herokuapp.com/fonts/ubuntu?subsets=cyrillic,latin
 
 * npm install stylus stylus-loader -D
 
-
-/*-----------------------------------Deploy en Netlify--------------------------*/
+/*-----------------------------------Deploy en Netlify------------------------------------------*/
 
 Se requiere archivo de configuracion Netlify.toml
 Se debe crear el script de javascript para crear las variables de entorno en produccion
 Se debe verificar que netlify cuente con acceso directo a la carpeta root donde esta el package.json
+
+/*-----------------------------------Instalacion y uso de entorno de desarrollo------------------*/
+
+* npm install webpack-dev-server -D
+
